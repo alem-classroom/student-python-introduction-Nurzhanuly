@@ -11,7 +11,6 @@ def reverse(str):
     return str [::-1]
 
 def is_substring(str, substr):
-    if str in substr:
-        return True
-    else:
-        return False
+    return str in substr
+
+# print(is_substring('flavor', 'a'))
